@@ -4,10 +4,93 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_mainactivity"
     tools:context="abulabeb.ahmad.www.imageprocessing.MainActivity">
 
+
+
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/imageProcess"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
         android:text="@string/app_name" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/imageProcess"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/bottomContiner">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/married"
+            android:id="@+id/TestImage_process" />
+
+        <Button
+            android:id="@+id/choseImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/chose"
+            android:text="chose image"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/bottomContiner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        tools:ignore="RtlHardcoded">
+
+
+        <Button
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/about_button"
+            android:text="@string/about"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/write_notes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/write_note"
+            android:text="@string/write_notes"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/cull_us"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/call_us"
+            android:text="@string/call_us"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+
 </RelativeLayout>

@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Image Processing </string>
+    <string name="about">About</string>
+    <string name="call_us">Call Us</string>
+    <string name="write_notes">Write Notes</string>
 </resources>

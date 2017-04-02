@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">معالجة الصور</string>
-
+    <string name="about">حول</string>
+    <string name="call_us">اتصل بنا</string>
+    <string name="write_notes">اكتب ملاحظاتك</string>
 </resources>
