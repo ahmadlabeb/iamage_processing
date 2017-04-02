@@ -3,4 +3,6 @@
     <string name="about">حول</string>
     <string name="call_us">اتصل بنا</string>
     <string name="write_notes">اكتب ملاحظاتك</string>
+    <string name="chose_image">اختر صورة</string>
+
 </resources>
